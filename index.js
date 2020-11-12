@@ -108,13 +108,12 @@ app.get("/deletepost/:id", (req, res) => {
   });
 });
 
-
+ 
 // Selectpost
-app.get("/getSellers/:id", (req, res) => {
-  let sql = `SELECT * FROM sellers WHERE id = ${req.params.id}`;
+app.get("/getSeller/:id", (req, res) => {
+  let sql = `SELECT * FROM sellers WHERE id_seller = ${req.params.id}`;
   let query = db.query(sql, (err, result) => {
     if (err) throw err;
-    console.log(result);
     res.send(result);
   });
 });
