@@ -29,3 +29,11 @@ Gimana caranya bikin auto increment setiap insert data baru? SOLVED
 ALTER TABLE sellers ADD id_seller int(11) NOT NULL AUTO_INCREMENT,
 ADD PRIMARY KEY(id_seller)
 ```
+
+## REST API ROUTES
+
+- /getSellers `GET`
+- /getSeller/:id `GET`
+- /deleteSeller/:id `GET`
+- /addSeller `POST`
+- /updateSeller/:id `POST`
