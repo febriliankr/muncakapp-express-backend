@@ -12,3 +12,15 @@ kurang encryption untuk passwordnya
 ## Heroku Setting ENV variables
 
 heroku config:set DB_NAME=thenameofthedb
+
+## Heroku Deploying
+
+```
+git add .
+git commit -m "x"
+git push heroku master
+```
+
+## Running on local server
+
+`node index.js`
