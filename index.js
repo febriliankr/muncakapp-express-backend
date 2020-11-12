@@ -29,30 +29,8 @@ app.get("/", (req, res) => {
   res.send("Muncak App REST API");
 });
 
-// Create Database
-// app.get("/createdb", (req, res) => {
-//   let sql = "CREATE DATABASE muncakappdb";
-//   db.query(sql, (err, result) => {
-//     if (err) {
-//       throw err;
-//     } else {
-//       console.log("Mysql Database created! 🍭", result);
-//     }
-//   });
-// });
 
-// // Create Table
-// app.get("/createpoststable", (req, res) => {
-//   let sql =
-//     "CREATE TABLE posts(id int AUTO_INCREMENT, title VARCHAR(255), body VARCHAR(255), PRIMARY KEY (id))";
-//   db.query(sql, (err, result) => {
-//     if (err) throw err;
-//     console.log(result);
-//     res.send("Posts table created");
-//   });
-// });
-
-// Sellers CRUD OF MUNCAK APP
+// Sellers CRUD
 
 // Selectpost
 app.get("/getSellers", (req, res) => {
