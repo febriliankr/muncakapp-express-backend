@@ -1,13 +1,9 @@
-# Qs
+# Backend for MuncakApp
 
-Gimana caranya bikin auto increment setiap insert data baru? SOLVED
+## Todo List
 
-```
-ALTER TABLE sellers ADD id_seller int(11) NOT NULL AUTO_INCREMENT,
-ADD PRIMARY KEY(id_seller)
-```
-
-kurang encryption untuk passwordnya
+- [ ] kurang encryption untuk passwordnya
+- [ ] CRUD Functions untuk Admin dan Products
 
 ## Heroku Setting ENV variables
 
@@ -24,3 +20,12 @@ git push heroku master
 ## Running on local server
 
 `node index.js`
+
+## Questions arising while coding
+
+Gimana caranya bikin auto increment setiap insert data baru? SOLVED
+
+```
+ALTER TABLE sellers ADD id_seller int(11) NOT NULL AUTO_INCREMENT,
+ADD PRIMARY KEY(id_seller)
+```
